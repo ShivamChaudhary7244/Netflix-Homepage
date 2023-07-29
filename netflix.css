@@ -1,0 +1,90 @@
+/* CSS Reset (Optional) */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    /* Header styles */
+    background-color: #000;
+    padding: 10px;
+}
+
+header img {
+    max-width: 100px;
+}
+
+main {
+    /* Main content styles */
+}
+
+.hero {
+    /* Hero section styles */
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    /* Button styles */
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #f40612;
+}
+
+.featured {
+    /* Featured section styles */
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.featured .item {
+    margin: 0 10px;
+}
+
+.featured img {
+    max-width: 200px;
+}
+
+footer {
+    /* Footer styles */
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fce7e7;
+}
